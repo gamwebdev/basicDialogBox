@@ -1,0 +1,43 @@
+#dialogOverlay{
+display:none;
+opacity:.8;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+z-index:10;
+background:#fff;
+}
+
+#dialogBox{
+display:none;
+position:fixed;
+width:400px;
+z-index:10;
+background:#000;
+border-radius:7px;
+}
+
+#dialogBox > div{
+background:#fff;
+margin:8px;
+}
+
+#dialogBox > div > #dialogBoxHead{
+background:#666;
+color:#ccc;
+padding:10px;
+font-size:19px;
+}
+#dialogBox > div > #dialogBoxBody{
+background:#333;
+color:#fff;
+padding:60px;
+}
+
+#dialogBox > div > #dialogBoxFooter{
+background:#666;
+text-align:right;
+padding:10px;
+}
+}
